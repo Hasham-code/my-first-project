@@ -1,0 +1,404 @@
+<?php
+?>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlobTrek Advanture</title>
+    <meta name="description" content="GlobTrek Advanture - Let us take you where your heart wants to go. Discover culture, history, and beautiful places around the globe." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png" />
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <a href="#home" class="nav_logo">
+                <img src="image/GlobeTrek.png" alt="GlobeTrek">
+            </a>
+            <nav>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav_links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destination</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-over"></div>
+        <div class="hero-vid">
+            <video autoplay muted loop playsinline class="video">
+                <source src="trevel.mp4" type="video/mp4" />
+                Your browser does not support HTML video!
+            </video>
+        </div>
+        
+        <h2>Travel Beyond Limits</h2>
+        <p>Let us take you where your heart wants to go. Start your next great adventure right here.</p>
+        <a href="#destinations" class="btn">Let’s Go</a>
+    </section>
+
+    <main>
+        <section id="destinations" class="container">
+            <h2 class="section-title">Most Visited Places</h2>
+            <p class="section-subtitle">Discover our most popular packages around the globe</p>
+            <div class="grid">
+                <div class="card">
+                    <img src="image/thailand.jpg" alt="Thailand" />
+                    <div class="card-content">
+                        <h3>Thailand</h3>
+                        <p>A paradise of culture and color, where ancient temples meet crystal-clear waters and lively night markets.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/maxico.jpg" alt="Mexico" />
+                    <div class="card-content">
+                        <h3>Mexico</h3>
+                        <p>The heart of culture and adventure, blending historic wonders, turquoise waters, and world-famous cuisine.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/china.jpg" alt="China" />
+                    <div class="card-content">
+                        <h3>China</h3>
+                        <p>A destination of heritage and harmony, where ancient temples, great walls, and dynamic cities inspire every traveler.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/spain.jpg" alt="Spain" />
+                    <div class="card-content">
+                        <h3>Spain</h3>
+                        <p>Where every city tells a story, from grand palaces and historic streets to sunlit shores and festive nights.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/turkey.jpg" alt="Turkey" />
+                    <div class="card-content">
+                        <h3>Turkey</h3>
+                        <p>Where cultures collide in beauty, from breathtaking mosques and historic ruins to magical coastlines and bustling cities.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/usa.jpg" alt="USA" />
+                    <div class="card-content">
+                        <h3>USA</h3>
+                        <p>Where every state tells a different story, blending breathtaking landscapes, modern innovation, and rich cultural diversity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages" class="container">
+            <h2 class="section-title">Our Best Packages</h2>
+            <p class="section-subtitle">Choose the perfect getaway that suits your needs</p>
+            <div class="tour-packages-grid">
+                <!-- Card 1 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="image/thailand.jpg" alt="Thailand Tour">
+                        <div class="tour-heart">♡</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Totally Thailand Tour from Bangkok</h3>
+                        <div class="tour-meta">
+                            <span>10 days</span> • <span class="star">⭐</span> <span>4.4 (88)</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="from-text">From</span>
+                            <div class="price-bottom">
+                                <span class="current-price">$1,158</span> <span class="per-person">per person</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn pkg-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <span class="discount-badge">-5% OFF</span>
+                        <img src="image/maxico.jpg" alt="Mexico Tour">
+                        <div class="tour-heart">♡</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Mexico 7 Days Tour From Cancun</h3>
+                        <div class="tour-meta">
+                            <span>7 days</span> • <span class="star">⭐</span> <span>4.7 (106)</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="from-text">From <span class="old-price">$1,372</span></span>
+                            <div class="price-bottom">
+                                <span class="current-price">$1,303</span> <span class="per-person">per person</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn pkg-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <span class="discount-badge">-40% OFF</span>
+                        <img src="image/spain.jpg" alt="Spain Tour">
+                        <div class="tour-heart">♡</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Timeless Spain</h3>
+                        <div class="tour-meta">
+                            <span>9 days</span> • <span class="star">⭐</span> <span>4.6 (194)</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="from-text">From <span class="old-price">$2,049</span></span>
+                            <div class="price-bottom">
+                                <span class="current-price">$1,229</span> <span class="per-person">per person</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn pkg-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <span class="discount-badge">-30% OFF</span>
+                        <img src="image/turkey.jpg" alt="Turkey Tour">
+                        <div class="tour-heart">♡</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Turkey Kasbahs & Desert</h3>
+                        <div class="tour-meta">
+                            <span>8 days</span> • <span class="star">⭐</span> <span>4.7 (296)</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="from-text">From <span class="old-price">$869</span></span>
+                            <div class="price-bottom">
+                                <span class="current-price">$608</span> <span class="per-person">per person</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn pkg-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <span class="discount-badge">-5% OFF</span>
+                        <img src="image/usa.jpg" alt="USA Tour">
+                        <div class="tour-heart">♡</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>The Magic of USA Tour 9 Days</h3>
+                        <div class="tour-meta">
+                            <span>9 days</span> • <span class="star">⭐</span> <span>4.7 (102)</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="from-text">From <span class="old-price">$1,754</span></span>
+                            <div class="price-bottom">
+                                <span class="current-price">$1,667</span> <span class="per-person">per person</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn pkg-btn">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Card 6 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <span class="discount-badge">-15% OFF</span>
+                        <img src="image/china.jpg" alt="China Tour">
+                        <div class="tour-heart">♡</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Wonders of China 12 Days</h3>
+                        <div class="tour-meta">
+                            <span>12 days</span> • <span class="star">⭐</span> <span>4.8 (215)</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="from-text">From <span class="old-price">$2,450</span></span>
+                            <div class="price-bottom">
+                                <span class="current-price">$2,082</span> <span class="per-person">per person</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn pkg-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="image/maxico.jpg" alt="Mexico Highlights">
+                        <div class="tour-heart">♡</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Mexico Highlights & Ruins</h3>
+                        <div class="tour-meta">
+                            <span>5 days</span> • <span class="star">⭐</span> <span>4.5 (64)</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="from-text">From</span>
+                            <div class="price-bottom">
+                                <span class="current-price">$899</span> <span class="per-person">per person</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn pkg-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="tour-card">
+                    <div class="tour-image-container">
+                        <span class="discount-badge">-10% OFF</span>
+                        <img src="image/thailand.jpg" alt="Phuket Island Tour">
+                        <div class="tour-heart">♡</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Phuket Island Explorer</h3>
+                        <div class="tour-meta">
+                            <span>8 days</span> • <span class="star">⭐</span> <span>4.9 (312)</span>
+                        </div>
+                        <div class="tour-price">
+                            <span class="from-text">From <span class="old-price">$1,100</span></span>
+                            <div class="price-bottom">
+                                <span class="current-price">$990</span> <span class="per-person">per person</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn pkg-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service" class="s-container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">We ensure a seamless journey step by step</p>
+            <div class="grid">
+                <div class="service-card">
+                    <div class="service-icon">✈️</div>
+                    <h3>Flight Booking</h3>
+                    <p>Get the best rates on international and domestic flights with comprehensive schedule tracking.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏨</div>
+                    <h3>Luxury Hotels</h3>
+                    <p>Exclusive partnerships with five-star resorts to give you the most comfortable stay imaginable.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🗺️</div>
+                    <h3>Guided Tours</h3>
+                    <p>Local expert guides ensuring engaging and immersive experiences across culturally rich places.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="generic-section">
+            <h2 class="section-title">About GlobeTrek</h2>
+            <p class="section-subtitle">Your gateway to the world's most beautiful destinations</p>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>We Create Unforgettable Memories</h3>
+                    <p>At GlobeTrek Advanture, we believe that traveling is more than just visiting places; it's about deeply connecting with the culture, nature, and the authentic stories each destination tells.</p>
+                    <p>Since 2012, our passion has driven us to curate exclusively designed tour packages, allowing you to immerse completely without worrying about the logistics. Whether it’s a tranquil beach holiday or an intense trek through historical ruins, we have you covered.</p>
+                    <a href="#contact" class="btn">Get In Touch</a>
+                </div>
+                <div class="about-img">
+                    <img src="image/sea.png" alt="About GlobeTrek" />
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Ready to start your adventure? Leave us a message.</p>
+            <div class="contact-container">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! We will contact you soon.');">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Your Name" required />
+                        <input type="email" id="email" placeholder="Your Email" required />
+                    </div>
+                    <input type="text" id="subject" placeholder="Subject" />
+                    <textarea id="message" placeholder="How can we help you plan your trip?" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <h3>Short Links</h3>
+            <div class="f-link">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destination</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>&copy; 2026 GlobeTrek Advanture. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Interactive Logic -->
+    <script>
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Hamburger Menu Logic
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        const navItems = document.querySelectorAll('.nav_links a');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Highlight Active Section in Navbar
+        const sections = document.querySelectorAll('section');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navItems.forEach(a => {
+                a.classList.remove('active');
+                if (a.getAttribute('href').includes(current)) {
+                    a.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
